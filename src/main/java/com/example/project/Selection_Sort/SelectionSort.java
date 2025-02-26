@@ -46,7 +46,6 @@ public class SelectionSort {
                 temp = words.get(i);
                 words.set(i, words.get(index));
                 words.set(index, temp);
-
             }
         }
         return words;
